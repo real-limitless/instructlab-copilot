@@ -2,7 +2,7 @@
   The `ilabcopilot` YAML format is structured to handle user interactions, including conversation responses, code blocks, and task orchestration. This structure uses specific keys to differentiate responses, code segments, and execution instructions:
   - `chat_conversation`: Holds the text output of the chatbot, with responses provided.
     - `response_type`: Defines what this response is (Text,Code)
-    - `follow_up_question: Defines a list of questions that will help the user refine their goal and converstation. 
+    - `follow_up_question`: Defines a list of questions that will help the user refine their goal and converstation. 
   - `chat_codeblock`: Organizes code snippets or textual information in multi-object YAML keys, labeled with the name `script_name` of the script or function and always written in python.
     - `script_name`: is the label of the script. 
     - `code`: Holds the python code of the script.
